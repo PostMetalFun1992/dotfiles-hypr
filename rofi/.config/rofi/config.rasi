@@ -1,0 +1,14 @@
+configuration {
+    modi: "drun,run,filebrowser";
+    show-icons: true;
+    display-drun: " Apps";
+    display-run: " Run";
+    display-filebrowser: " Files";
+    display-window: " Windows";
+    drun-display-format: "{name}";
+    window-format: "{w} · {c} · {t}";
+    terminal: "kitty"; 
+    font: "JetBrainsMono Nerd Font 10";
+}
+
+@theme "tokyonight"
