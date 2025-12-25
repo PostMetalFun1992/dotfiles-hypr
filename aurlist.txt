@@ -1,0 +1,3 @@
+tokyonight-gtk-theme-git
+yay
+yay-debug
