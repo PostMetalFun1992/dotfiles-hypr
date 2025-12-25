@@ -1,0 +1,106 @@
+/* --- TOKYO NIGHT PALETTE --- */
+@define-color bg #1a1b26;
+@define-color fg #c0caf5;
+@define-color blue #7aa2f7;
+@define-color purple #bb9af7;
+@define-color red #f7768e;
+@define-color green #9ece6a;
+@define-color yellow #e0af68;
+@define-color cyan #7dcfff;
+
+* {
+    font-family: "JetBrainsMono Nerd Font", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+window#waybar {
+    background-color: rgba(26, 27, 38, 0.9); /* Полупрозрачный фон */
+    color: @fg;
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+/* --- WORKSPACES (Слева) --- */
+#workspaces button {
+    padding: 0 5px;
+    background-color: transparent;
+    color: @fg;
+    border-radius: 4px;
+}
+
+#workspaces button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+#workspaces button.active {
+    color: @bg;
+    background-color: @blue; /* Активный воркспейс синий */
+}
+
+#workspaces button.urgent {
+    background-color: @red;
+}
+
+/* --- MODULES COMMON --- */
+#clock,
+#battery,
+#cpu,
+#memory,
+#disk,
+#temperature,
+#backlight,
+#network,
+#pulseaudio,
+#wireplumber,
+#tray,
+#mode,
+#idle_inhibitor,
+#scratchpad,
+#language {
+    padding: 0 10px;
+    margin: 4px 2px;
+    color: @bg;
+    border-radius: 4px;
+}
+
+/* --- COLORS FOR MODULES --- */
+#clock {
+    background-color: @purple;
+    color: @bg;
+}
+
+#pulseaudio {
+    background-color: @green;
+}
+
+#network {
+    background-color: @cyan;
+    color: @bg;
+}
+
+#network.disconnected {
+    background-color: @red;
+}
+
+#backlight {
+    background-color: #e0af68;
+    color: #1a1b26;
+    padding-right: 10px;
+}
+
+#language {
+    background-color: @yellow;
+}
+
+#memory {
+    background-color: @blue;
+}
+
+#cpu {
+    background-color: @red;
+}
+
+#tray {
+    background-color: #24283b;
+}

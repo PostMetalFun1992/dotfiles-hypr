@@ -1,0 +1,57 @@
+{
+    "layer": "top",
+    "position": "bottom",
+    "height": 30,
+    "spacing": 4,
+    "modules-left": ["hyprland/workspaces"],
+    "modules-center": ["clock"],
+    "modules-right": ["hyprland/language", "network", "backlight", "pulseaudio", "memory", "cpu", "tray"],
+
+    "hyprland/workspaces": {
+        "disable-scroll": true,
+        "all-outputs": true,
+        "format": "{name}"
+    },
+    "clock": {
+        "format": "{:%H:%M  📅 %d.%m}",
+        "tooltip-format": "<big>{:%Y %B}</big>\n<tt>{calendar}</tt>"
+    },
+    "hyprland/language": {
+        "format": " {}",
+        "format-en": "EN",
+	"format-ru": "RU"
+    },
+    "network": {
+    	"format": "{ifname}",
+    	"format-wifi": "  {essid}",
+    	"format-ethernet": "  {ipaddr}/{cidr}",
+    	"format-disconnected": "⚠  Disconnected",
+    	"tooltip-format": "{ifname} via {gwaddr}",
+    	"max-length": 50
+    },
+    "backlight": {
+        "format": "{icon} {percent}%",
+        "format-icons": ["", "", "", "", "", "", "", "", ""],
+        "on-scroll-up": "brightnessctl set 1%+",
+        "on-scroll-down": "brightnessctl set 1%-",
+        "on-click": "brightnessctl set 50%" 
+    },
+    "pulseaudio": {
+    	"format": "{icon} {volume}%",
+        "format-muted": "🔇 Muted",
+        "format-icons": {
+            "default": ["", "", ""]
+        },
+        "on-click": "pavucontrol"
+    },
+    "memory": {
+        "format": " {}%"
+    },
+    "cpu": {
+        "format": " {usage}%",
+        "tooltip": false
+    },
+    "tray": {
+        "spacing": 10
+    }
+}
