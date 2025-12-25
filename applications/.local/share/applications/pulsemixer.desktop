@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Pulsemixer
+GenericName=Volume Control
+Comment=Pulsemixer TUI
+Exec=kitty --class pulsemixer -e pulsemixer
+Icon=audio-volume-high
+Terminal=false
+Categories=AudioVideo;Audio;ConsoleOnly;System;
+Keywords=volume;sound;mixer;pulse;pipewire;

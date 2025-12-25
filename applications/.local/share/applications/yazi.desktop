@@ -1,0 +1,9 @@
+[Desktop Entry]
+Type=Application
+Name=Yazi
+Comment=File Manager
+Exec=kitty -e yazi %u
+Icon=yazi
+Terminal=false
+Categories=ConsoleOnly;System;FileTools;FileManager;
+MimeType=inode/directory;

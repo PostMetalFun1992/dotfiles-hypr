@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Impala
+GenericName=WiFi Manager
+Comment=TUI WiFi manager written in Rust
+Exec=kitty --class impala -e impala
+Icon=network-wireless
+Terminal=false
+Categories=System;Network;ConsoleOnly;
+Keywords=internet;wireless;

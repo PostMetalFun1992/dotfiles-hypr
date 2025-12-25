@@ -1,0 +1,10 @@
+[Desktop Entry]
+Type=Application
+Name=Bluetui
+GenericName=Bluetooth Manager
+Comment=Lightweight TUI Bluetooth manager in Rust
+Exec=kitty --class bluetui -e bluetui
+Icon=bluetooth
+Terminal=false
+Categories=System;Settings;ConsoleOnly;
+Keywords=bluetooth;wireless;connect;rust;
