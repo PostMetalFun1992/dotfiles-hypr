@@ -46,11 +46,13 @@ linux-headers
 mesa-utils
 nano
 neovim
+nmap
 noto-fonts-emoji
 nvidia-open-dkms
 nwg-look
 openssh
 papirus-icon-theme
+pass
 pipewire
 pipewire-alsa
 pipewire-jack
