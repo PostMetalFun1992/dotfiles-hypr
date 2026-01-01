@@ -33,7 +33,6 @@ impala
 intel-media-driver
 intel-ucode
 iwd
-keepassxc
 keychain
 kitty
 less
