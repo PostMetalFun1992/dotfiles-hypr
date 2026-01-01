@@ -1,4 +1,5 @@
 7zip
+alacritty
 android-file-transfer
 base
 base-devel
@@ -34,7 +35,6 @@ intel-media-driver
 intel-ucode
 iwd
 keychain
-kitty
 less
 libnotify
 libpulse

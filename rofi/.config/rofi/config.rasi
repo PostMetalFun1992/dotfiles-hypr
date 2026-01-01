@@ -7,7 +7,7 @@ configuration {
     display-window: " Windows";
     drun-display-format: "{name}";
     window-format: "{w} · {c} · {t}";
-    terminal: "kitty"; 
+    terminal: "alacritty"; 
     font: "JetBrainsMono Nerd Font 10";
 }
 
