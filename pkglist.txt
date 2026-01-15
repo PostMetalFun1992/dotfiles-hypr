@@ -22,6 +22,7 @@ eza
 firefox
 fish
 git
+glow
 grim
 gst-plugin-pipewire
 gvfs
