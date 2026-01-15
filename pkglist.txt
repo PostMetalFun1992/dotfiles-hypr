@@ -70,6 +70,7 @@ smartmontools
 sof-firmware
 starship
 stow
+tig
 ttf-jetbrains-mono-nerd
 vde2
 vim
