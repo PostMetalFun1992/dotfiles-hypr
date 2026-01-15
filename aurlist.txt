@@ -1,3 +1,5 @@
+jira-cli
+jira-cli-debug
 nb
 tokyonight-gtk-theme-git
 yay
