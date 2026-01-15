@@ -13,6 +13,9 @@ btrfs-progs
 dkms
 dmidecode
 dnsmasq
+docker
+docker-buildx
+docker-compose
 dunst
 efibootmgr
 eza
